@@ -43,7 +43,7 @@ function getGenAI(): GoogleGenAI {
 }
 
 function getModelName(): string {
-  return process.env.GEMINI_MODEL || 'gemini-3.8-flash';
+  return process.env.GEMINI_MODEL || 'gemini-3.5-flash-lite';
 }
 
 function getThinkingLevel(): ThinkingLevel {
@@ -54,7 +54,9 @@ function getThinkingLevel(): ThinkingLevel {
 
 async function generateWithRetry(prompt: string, attempt = 1): Promise<string> {
   const ai = getGenAI();
-  const modelsToTry = Array.from(new Set([getModelName(), 'gemini-3.8-flash', 'gemini-3.6-flash']));
+  const modelsToTry = Array.from(
+    new Set([getModelName(), 'gemini-3.5-flash-lite', 'gemini-3.5-flash', 'gemini-3.8-flash', 'gemini-3.6-flash'])
+  );
   const modelToUse = modelsToTry[(attempt - 1) % modelsToTry.length];
   const thinkingLevel = getThinkingLevel();
 
