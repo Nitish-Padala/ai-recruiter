@@ -1,7 +1,9 @@
 package com.airecruiter.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import java.util.List;
 
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class CandidateProfile {
     private String id;
     private String name;

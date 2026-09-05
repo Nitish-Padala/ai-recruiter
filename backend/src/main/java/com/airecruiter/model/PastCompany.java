@@ -1,9 +1,20 @@
 package com.airecruiter.model;
 
+import com.fasterxml.jackson.annotation.JsonAlias;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class PastCompany {
+    @JsonAlias("company")
     private String name;
+
+    @JsonAlias("company_type")
     private String type;
+
+    @JsonAlias("title")
     private String role;
+
+    @JsonAlias("years")
     private double duration_years;
 
     public PastCompany() {}
