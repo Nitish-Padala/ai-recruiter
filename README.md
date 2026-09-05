@@ -1,20 +1,42 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# AI Recruiter 🤖
 
-# Run and deploy your AI Studio app
+AI Recruiter is an AI-powered candidate search and evaluation application that helps HR teams find suitable candidates using natural language requirements.
 
-This contains everything you need to run your app locally.
+Instead of manually applying multiple filters, an HR user can describe their ideal candidate in plain English. The application uses AI to understand the requirement, generate structured filters and an evaluation rubric, and rank candidates based on their overall match.
 
-View your app in AI Studio: https://ai.studio/apps/29d457b7-1d8c-49bc-80ee-086cfb628757
+---
 
-## Run Locally
+## 🚀 Features
 
-**Prerequisites:**  Node.js
+- Natural language candidate search
+- AI-generated objective filters
+- AI-generated candidate evaluation rubric
+- Candidate match percentage calculation
+- Candidate ranking and explanations
+- Candidate filtering based on requirements
+- Search refinement using HR feedback
+- Final shortlist / freeze search functionality
+- Gemini AI integration
 
+---
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 🧠 How It Works
+
+The application follows the workflow below:
+
+```text
+HR Requirement (Free Text)
+          ↓
+AI Understanding
+          ↓
+Objective Filters
+          +
+Evaluation Rubric
+          ↓
+Candidate Filtering
+          ↓
+AI Candidate Evaluation
+          ↓
+Match Percentage
+          ↓
+Ranked Candidate List
