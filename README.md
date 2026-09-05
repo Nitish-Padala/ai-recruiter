@@ -1,10 +1,10 @@
-# AI Recruiter 🤖
+## 🛠️ Tools Used
 
-AI Recruiter is an AI-powered candidate search and evaluation application that helps HR teams find suitable candidates using natural language requirements.
-
-Instead of manually applying multiple filters, an HR user can describe their ideal candidate in plain English. The application uses AI to understand the requirement, generate structured filters and an evaluation rubric, and rank candidates based on their overall match.
-
----
+- **Google AI Studio** – Initial application development
+- **Antigravity** – Code changes and improvements
+- **ChatGPT** – Prompt creation and project guidance
+- **Visual Studio Code** – Code editing and local testing
+- **GitHub** – Source code hosting and version control
 
 ## 🚀 Features
 
