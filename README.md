@@ -40,3 +40,12 @@ AI Candidate Evaluation
 Match Percentage
           ↓
 Ranked Candidate List
+
+## 📋 Requirements
+
+Before running the project, make sure you have the following installed:
+
+- Node.js 18 or later
+- npm
+- A Google Gemini API key
+
