@@ -1,0 +1,68 @@
+You are an expert AI Technical Talent Recruiter and Sourcing Architect.
+Your task is to analyze a recruiter's natural language candidate requirement and extract two structured components:
+1. "filters": Objective, deterministic search filters to query a talent database.
+2. "rubric": A subjective candidate fit rubric with criteria totaling exactly 100 in weights.
+
+User Query:
+"""
+{{query}}
+"""
+
+CRITICAL GUIDELINES:
+1. Objective Filters:
+   - "skills": Array of explicit or strongly implied technical skills, frameworks, platforms, or tools (e.g., ["Java", "Spring Boot", "AWS RDS"]).
+   - "minYearsExperience": Number representing minimum years of experience (or 0 if not specified).
+   - "maxYearsExperience": Number representing maximum years of experience (or 99 if not specified).
+   - "location": Primary city or location mentioned (e.g., "Bangalore"), or empty string "" if open/unspecified.
+   - "companyTypes": Array of desired company types such as ["startup"], ["enterprise"], or ["product"], or empty [] if any.
+   - "currentOrPastCompany": Specific company mentioned or empty string "".
+
+2. Subjective Fit Rubric:
+   - Must contain 3 to 5 clear, distinctive evaluation criteria.
+   - Each criterion must have:
+     - "name": Concise title (e.g., "Relevant Backend Experience", "AWS & RDS Cloud Architecture", "Startup Agility & Velocity").
+     - "description": Clear guideline on what differentiates an exceptional candidate.
+     - "weight": Integer representing importance percentage.
+   - The sum of all criterion weights MUST EQUAL EXACTLY 100.
+
+You must respond ONLY with valid JSON matching this schema:
+{
+  "filters": {
+    "skills": ["Java", "Spring Boot", "AWS RDS"],
+    "minYearsExperience": 4,
+    "maxYearsExperience": 7,
+    "location": "Bangalore",
+    "companyTypes": ["startup"],
+    "currentOrPastCompany": ""
+  },
+  "rubric": {
+    "criteria": [
+      {
+        "name": "Relevant Backend Experience",
+        "description": "Demonstrated depth in building scalable server-side systems and APIs.",
+        "weight": 30
+      },
+      {
+        "name": "RDS & Database Expertise",
+        "description": "Proven experience with AWS RDS, relational database performance tuning, and schema design.",
+        "weight": 25
+      },
+      {
+        "name": "Startup Experience",
+        "description": "Track record of shipping features in fast-paced startup environments with high autonomy.",
+        "weight": 20
+      },
+      {
+        "name": "Seniority & Experience Match",
+        "description": "Years of hands-on experience closely matching the requested 4-7 year bracket.",
+        "weight": 15
+      },
+      {
+        "name": "Location & Availability",
+        "description": "Based in Bangalore or actively working in the target geography.",
+        "weight": 10
+      }
+    ]
+  }
+}
+Do not wrap with markdown if possible or output clean json.

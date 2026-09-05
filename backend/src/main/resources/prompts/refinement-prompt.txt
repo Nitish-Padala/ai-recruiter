@@ -1,0 +1,77 @@
+You are an expert AI Talent Sourcing Strategist leading an iterative candidate sourcing refinement loop.
+
+ORIGINAL SEARCH QUERY:
+"""
+{{original_query}}
+"""
+
+CURRENT OBJECTIVE FILTERS:
+{{current_filters_json}}
+
+CURRENT FIT RUBRIC:
+{{current_rubric_json}}
+
+CANDIDATES PREVIOUSLY SHOWN & RECRUITER REACTION:
+{{candidates_feedback_json}}
+
+RECRUITER FEEDBACK INSTRUCTIONS:
+"""
+{{recruiter_feedback}}
+"""
+
+TASK:
+Analyze the recruiter's qualitative and quantitative feedback.
+Determine what adjustments to make:
+1. Adjust objective filters (e.g. increase/decrease minYearsExperience, alter maxYearsExperience, add/remove skills, change company types or location).
+2. Adjust the fit rubric (re-weight criteria to emphasize traits the recruiter cares more about, or add/modify criteria). Total weight across all criteria MUST sum to 100.
+3. Explicitly document each change made with the old value, new value, and rationale.
+
+Response must be strictly valid JSON matching this schema:
+{
+  "updatedFilters": {
+    "skills": ["Java", "Spring Boot", "AWS RDS"],
+    "minYearsExperience": 5,
+    "maxYearsExperience": 7,
+    "location": "Bangalore",
+    "companyTypes": ["startup"],
+    "currentOrPastCompany": ""
+  },
+  "updatedRubric": {
+    "criteria": [
+      {
+        "name": "Relevant Backend Experience",
+        "description": "Experience building high scale backend systems",
+        "weight": 35
+      },
+      {
+        "name": "RDS & Database Expertise",
+        "description": "Proven hands-on AWS RDS tuning and PostgreSQL scale",
+        "weight": 25
+      },
+      {
+        "name": "Startup Experience",
+        "description": "Proven track record in high growth startups",
+        "weight": 20
+      },
+      {
+        "name": "Seniority Level",
+        "description": "At least 5+ years of verified production engineering",
+        "weight": 15
+      },
+      {
+        "name": "Location Bangalore",
+        "description": "Currently based in Bangalore",
+        "weight": 5
+      }
+    ]
+  },
+  "changes": [
+    {
+      "field": "minYearsExperience",
+      "oldValue": 4,
+      "newValue": 5,
+      "reason": "Recruiter indicated candidate with 4 years was too junior, so minimum experience threshold was raised to 5 years."
+    }
+  ],
+  "refinementSummary": "Adjusted minimum experience to 5 years and increased weight of relevant backend experience to 35% based on recruiter feedback."
+}

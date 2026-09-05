@@ -1,0 +1,310 @@
+[
+  {
+    "id": "p01",
+    "name": "Ananya Rao",
+    "current_title": "Senior Backend Engineer",
+    "years_experience": 6,
+    "location": "Bangalore",
+    "current_company": "NimbusPay",
+    "current_company_type": "startup",
+    "skills": ["Java", "Spring Boot", "AWS", "PostgreSQL", "Kafka", "Docker", "Microservices"],
+    "past_companies": [
+      { "name": "Razorpay", "type": "startup", "role": "Backend Engineer", "duration_years": 3 },
+      { "name": "Infosys", "type": "enterprise", "role": "Associate Software Engineer", "duration_years": 1 }
+    ],
+    "education": "B.Tech Computer Science, NIT Karnataka",
+    "summary": "Experienced backend engineer specializing in high-throughput payments systems, Java/Spring Boot microservices, and AWS cloud architecture in high-growth startups."
+  },
+  {
+    "id": "p02",
+    "name": "Karthik Subramanian",
+    "current_title": "Lead Database & Backend Engineer",
+    "years_experience": 7,
+    "location": "Bangalore",
+    "current_company": "Zenith Cloud Systems",
+    "current_company_type": "startup",
+    "skills": ["Java", "Spring Boot", "AWS RDS", "PostgreSQL", "MySQL", "DynamoDB", "Redis", "Terraform"],
+    "past_companies": [
+      { "name": "Swiggy", "type": "startup", "role": "Senior Backend Engineer", "duration_years": 3 },
+      { "name": "Wipro Technologies", "type": "enterprise", "role": "Software Developer", "duration_years": 2 }
+    ],
+    "education": "B.E. Information Technology, RV College of Engineering Bangalore",
+    "summary": "Database-intensive backend specialist with deep AWS RDS provisioning, read-replica scaling, connection pooling, and resilient Spring Boot REST API designs."
+  },
+  {
+    "id": "p03",
+    "name": "Rohan Mehra",
+    "current_title": "Senior Systems Engineer",
+    "years_experience": 5,
+    "location": "Bangalore",
+    "current_company": "UrbanFleet",
+    "current_company_type": "startup",
+    "skills": ["Node.js", "TypeScript", "AWS", "PostgreSQL", "MongoDB", "RabbitMQ", "Docker"],
+    "past_companies": [
+      { "name": "Ola Cabs", "type": "startup", "role": "Backend Engineer", "duration_years": 3 }
+    ],
+    "education": "B.Tech Computer Science, PES University Bangalore",
+    "summary": "Fast-paced startup engineer adept with Node.js/TypeScript event-driven backends, geo-distributed messaging, and AWS deployments."
+  },
+  {
+    "id": "p04",
+    "name": "Pooja Hegde",
+    "current_title": "Staff Backend Engineer",
+    "years_experience": 8,
+    "location": "Bangalore",
+    "current_company": "FinStack Global",
+    "current_company_type": "enterprise",
+    "skills": ["Java", "Spring Boot", "AWS", "Kubernetes", "PostgreSQL", "Kafka", "gRPC"],
+    "past_companies": [
+      { "name": "Goldman Sachs", "type": "enterprise", "role": "Vice President - Technology", "duration_years": 4 },
+      { "name": "Cisco", "type": "enterprise", "role": "Software Engineer", "duration_years": 4 }
+    ],
+    "education": "M.S. Software Engineering, BITS Pilani",
+    "summary": "Deep expertise in core Java and enterprise Spring architectures, but primarily based in tier-1 banking and multinational enterprise environments."
+  },
+  {
+    "id": "p05",
+    "name": "Vikram Adiga",
+    "current_title": "Backend Engineer II",
+    "years_experience": 4,
+    "location": "Bangalore",
+    "current_company": "KredXplore",
+    "current_company_type": "startup",
+    "skills": ["Java", "Spring Boot", "AWS RDS", "PostgreSQL", "Elasticsearch", "Docker"],
+    "past_companies": [
+      { "name": "Instamojo", "type": "startup", "role": "Software Engineer", "duration_years": 2 }
+    ],
+    "education": "B.Tech Information Science, BMS College of Engineering Bangalore",
+    "summary": "Fast-rising startup backend engineer with hands-on AWS RDS configuration, transactional integrity in Spring Boot, and search indexing."
+  },
+  {
+    "id": "p06",
+    "name": "Siddharth Verma",
+    "current_title": "Full Stack & Backend Developer",
+    "years_experience": 5,
+    "location": "Bangalore",
+    "current_company": "HyperGro Technologies",
+    "current_company_type": "startup",
+    "skills": ["Java", "Node.js", "Spring Boot", "React", "PostgreSQL", "AWS"],
+    "past_companies": [
+      { "name": "Dunzo", "type": "startup", "role": "Software Development Engineer", "duration_years": 2 },
+      { "name": "Cognizant", "type": "enterprise", "role": "Programmer Analyst", "duration_years": 1 }
+    ],
+    "education": "B.Tech Computer Science, Manipal University",
+    "summary": "Balanced backend and frontend developer with solid Spring Boot and Node.js production experience across delivery and logistics startups."
+  },
+  {
+    "id": "p07",
+    "name": "Meera Nambiar",
+    "current_title": "Senior Cloud Data & RDS Specialist",
+    "years_experience": 6,
+    "location": "Bangalore",
+    "current_company": "DataWeave Systems",
+    "current_company_type": "startup",
+    "skills": ["Java", "Python", "AWS RDS", "Aurora PostgreSQL", "Spring Boot", "Terraform", "Kafka"],
+    "past_companies": [
+      { "name": "InMobi", "type": "startup", "role": "Data/Backend Engineer", "duration_years": 3 }
+    ],
+    "education": "B.Tech Electrical & Computer Engineering, NIT Calicut",
+    "summary": "Specialist in AWS RDS multi-AZ deployments, Aurora PostgreSQL query optimization, and Java data pipelines processing over 50M events daily."
+  },
+  {
+    "id": "p08",
+    "name": "Arjun Patel",
+    "current_title": "Senior Software Engineer",
+    "years_experience": 6,
+    "location": "Pune",
+    "current_company": "CloudForge Labs",
+    "current_company_type": "startup",
+    "skills": ["Java", "Spring Boot", "AWS", "PostgreSQL", "Docker", "Kubernetes"],
+    "past_companies": [
+      { "name": "TCS", "type": "enterprise", "role": "Systems Engineer", "duration_years": 2 }
+    ],
+    "education": "B.E. Computer Engineering, Pune Institute of Computer Technology",
+    "summary": "Strong Java backend engineer with AWS and Kubernetes knowledge based in Pune; willing to relocate."
+  },
+  {
+    "id": "p09",
+    "name": "Deepika Joshi",
+    "current_title": "Junior Backend Developer",
+    "years_experience": 2,
+    "location": "Bangalore",
+    "current_company": "QuickPay Solutions",
+    "current_company_type": "startup",
+    "skills": ["Java", "Spring Boot", "PostgreSQL", "Git", "REST APIs"],
+    "past_companies": [
+      { "name": "NimbleTech", "type": "startup", "role": "Intern", "duration_years": 0.5 }
+    ],
+    "education": "B.Tech Computer Science, MS Ramaiah Institute of Technology",
+    "summary": "Enthusiastic junior backend engineer with strong foundational Java and Spring skills, building REST endpoints in early-stage fintech."
+  },
+  {
+    "id": "p10",
+    "name": "Tanmay Deshmukh",
+    "current_title": "Principal Architect",
+    "years_experience": 12,
+    "location": "Bangalore",
+    "current_company": "Oracle India",
+    "current_company_type": "enterprise",
+    "skills": ["Java", "C++", "Oracle DB", "Microservices", "Architecture", "Spring Framework"],
+    "past_companies": [
+      { "name": "IBM", "type": "enterprise", "role": "Staff Software Architect", "duration_years": 6 }
+    ],
+    "education": "M.Tech Computer Science, IIT Bombay",
+    "summary": "Veteran enterprise architect with over a decade of database core engine and large-scale enterprise system design experience."
+  },
+  {
+    "id": "p11",
+    "name": "Sneha Kulkarni",
+    "current_title": "Senior Backend Engineer",
+    "years_experience": 5,
+    "location": "Bangalore",
+    "current_company": "FreshWorks Technologies",
+    "current_company_type": "product",
+    "skills": ["Java", "Spring Boot", "AWS RDS", "MySQL", "Redis", "Kafka", "Docker"],
+    "past_companies": [
+      { "name": "Capillary Tech", "type": "startup", "role": "Backend Engineer", "duration_years": 3 }
+    ],
+    "education": "B.E. Information Science, Mysore University",
+    "summary": "Product-minded backend engineer with 5 years experience across SaaS scale-ups and CRM products, specializing in high-concurrency Spring Boot services."
+  },
+  {
+    "id": "p12",
+    "name": "Nikhil Agarwal",
+    "current_title": "Backend Tech Lead",
+    "years_experience": 7,
+    "location": "Bangalore",
+    "current_company": "Zomato",
+    "current_company_type": "startup",
+    "skills": ["Java", "Spring Boot", "AWS", "DynamoDB", "PostgreSQL", "Kafka", "Kubernetes", "Redis"],
+    "past_companies": [
+      { "name": "Paytm", "type": "startup", "role": "Senior Software Engineer", "duration_years": 3 },
+      { "name": "Accenture", "type": "enterprise", "role": "Software Associate", "duration_years": 1 }
+    ],
+    "education": "B.Tech Computer Science, Delhi Technological University (DTU)",
+    "summary": "Proven track record leading order processing microservices in ultra-high velocity B2C startups in Bangalore with Java/Spring and AWS."
+  },
+  {
+    "id": "p13",
+    "name": "Ayesha Khan",
+    "current_title": "Cloud & RDS Database Administrator / Backend",
+    "years_experience": 6,
+    "location": "Bangalore",
+    "current_company": "FintechScale",
+    "current_company_type": "startup",
+    "skills": ["AWS RDS", "PostgreSQL", "Java", "Python", "SQL Optimization", "Spring Boot", "CloudFormation"],
+    "past_companies": [
+      { "name": "Practo", "type": "startup", "role": "Database Engineer", "duration_years": 2 },
+      { "name": "Cognizant", "type": "enterprise", "role": "Database Developer", "duration_years": 2 }
+    ],
+    "education": "B.Tech Computer Science, Osmania University",
+    "summary": "Hybrid RDS database administrator and backend developer adept in failover tuning, schema migrations without downtime, and Spring Boot integration."
+  },
+  {
+    "id": "p14",
+    "name": "Prateek Nair",
+    "current_title": "Software Engineer - Backend",
+    "years_experience": 4,
+    "location": "Bangalore",
+    "current_company": "Bounce Mobility",
+    "current_company_type": "startup",
+    "skills": ["Java", "Spring Boot", "AWS RDS", "PostgreSQL", "Redis", "Git", "REST APIs"],
+    "past_companies": [
+      { "name": "Mindtree", "type": "enterprise", "role": "Software Engineer", "duration_years": 1.5 }
+    ],
+    "education": "B.Tech Computer Science, Amrita Vishwa Vidyapeetham",
+    "summary": "Agile backend developer with 4 years building IoT telemetry ingest and booking engines using Spring Boot and AWS RDS in Bangalore mobility startups."
+  },
+  {
+    "id": "p15",
+    "name": "Divya Chawla",
+    "current_title": "Senior Node.js Backend Engineer",
+    "years_experience": 6,
+    "location": "Bangalore",
+    "current_company": "Meesho",
+    "current_company_type": "startup",
+    "skills": ["Node.js", "TypeScript", "AWS RDS", "PostgreSQL", "Kafka", "Docker", "GraphQL"],
+    "past_companies": [
+      { "name": "Urban Company", "type": "startup", "role": "Backend Engineer", "duration_years": 3 }
+    ],
+    "education": "B.Tech Computer Science, Thapar Institute of Engineering & Technology",
+    "summary": "Expert Node.js/TypeScript engineer handling millions of daily catalogue updates, utilizing AWS RDS PostgreSQL clusters and Redis caching."
+  },
+  {
+    "id": "p16",
+    "name": "Varun Sengupta",
+    "current_title": "DevOps & Cloud Backend Engineer",
+    "years_experience": 5,
+    "location": "Bangalore",
+    "current_company": "Krypton Labs",
+    "current_company_type": "startup",
+    "skills": ["AWS", "AWS RDS", "Terraform", "Docker", "Kubernetes", "Java", "Go"],
+    "past_companies": [
+      { "name": "HCL Technologies", "type": "enterprise", "role": "DevOps Engineer", "duration_years": 2 }
+    ],
+    "education": "B.Tech IT, Heritage Institute of Technology Kolkata",
+    "summary": "DevOps and backend cloud specialist focused on automating AWS RDS provisioning, CI/CD pipelines, and microservice orchestration."
+  },
+  {
+    "id": "p17",
+    "name": "Harini Rajan",
+    "current_title": "Senior Backend Engineer",
+    "years_experience": 7,
+    "location": "Bangalore",
+    "current_company": "Zeta Suite",
+    "current_company_type": "startup",
+    "skills": ["Java", "Spring Boot", "AWS RDS", "Aurora MySQL", "Kafka", "Microservices", "Docker"],
+    "past_companies": [
+      { "name": "Flipkart", "type": "startup", "role": "Software Development Engineer II", "duration_years": 3 },
+      { "name": "Infosys", "type": "enterprise", "role": "Software Engineer", "duration_years": 1.5 }
+    ],
+    "education": "B.E. Computer Science, College of Engineering Guindy Chennai",
+    "summary": "Strong pedigree in Bangalore's premier startups (Flipkart & Zeta), building payment rails, ledger systems, and scalable Spring Boot services."
+  },
+  {
+    "id": "p18",
+    "name": "Gaurav Malhotra",
+    "current_title": "Lead Software Engineer",
+    "years_experience": 9,
+    "location": "Delhi NCR",
+    "current_company": "PolicyBazaar",
+    "current_company_type": "startup",
+    "skills": ["Java", "Spring Boot", "AWS", "PostgreSQL", "Kafka", "Redis"],
+    "past_companies": [
+      { "name": "MakeMyTrip", "type": "startup", "role": "Senior Engineer", "duration_years": 4 }
+    ],
+    "education": "B.Tech Computer Science, IP University Delhi",
+    "summary": "Seasoned backend lead with 9 years of consumer startup scale in North India; strong technical chops but outside Bangalore."
+  },
+  {
+    "id": "p19",
+    "name": "Swathi Balaji",
+    "current_title": "Backend Engineer",
+    "years_experience": 4,
+    "location": "Bangalore",
+    "current_company": "Licious",
+    "current_company_type": "startup",
+    "skills": ["Java", "Spring Boot", "PostgreSQL", "AWS RDS", "Docker", "Maven"],
+    "past_companies": [
+      { "name": "Mindgate Solutions", "type": "startup", "role": "Junior Java Developer", "duration_years": 2 }
+    ],
+    "education": "B.Tech Information Technology, SASTRA University",
+    "summary": "4 years of focused Java backend development for supply chain and commerce fulfillment at hyper-growth Bangalore startups."
+  },
+  {
+    "id": "p20",
+    "name": "Abhishek Ghosh",
+    "current_title": "Senior Backend Developer",
+    "years_experience": 6,
+    "location": "Bangalore",
+    "current_company": "CRED",
+    "current_company_type": "startup",
+    "skills": ["Java", "Spring Boot", "AWS RDS", "PostgreSQL", "Kafka", "Redis", "Distributed Systems"],
+    "past_companies": [
+      { "name": "Cure.fit", "type": "startup", "role": "Software Engineer", "duration_years": 2.5 },
+      { "name": "Oracle", "type": "enterprise", "role": "Associate Consultant", "duration_years": 1 }
+    ],
+    "education": "B.Tech Computer Science, Jadavpur University",
+    "summary": "High-caliber startup engineer with direct experience in Bangalore unicorns CRED & Cure.fit, deep domain in fintech, AWS RDS, and resilient Spring microservices."
+  }
+]
